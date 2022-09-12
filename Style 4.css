@@ -1,0 +1,106 @@
+    body /* defining item to add style to*/
+    {
+        background-color: grey;  /*adjusting the color of the background*/
+    }
+    nav /* defining item to add style to*/
+    {
+        width: 100%; /*adjusting width*/
+    }
+    nav ul /* calling the ul tag inside of nav tag*/
+    {
+        list-style: none; /*getting rid of bullet points*/
+        padding-left: 20px; /*adding space between page and nav bar*/
+        margin: -10px; /*decreasing magrin on all sides*/
+
+    }
+    nav li /* calling the li tag inside of nav tag*/
+    {
+        float: left; /*making the list inline*/
+        display: block; /*making list a block to make it easier to spread apart*/
+        padding: 5px; /*adding space between list items*/
+        padding-right: 5px; /*adding space between list items on the rigth side*/
+        background-color: darkgray; /*adjusting background color*/
+        text-align: center; /* aligning text to center*/
+        width: 24%; /*defining width for each block*/
+    }
+    nav a /* calling the a tag inside of nav tag*/
+    {
+        text-decoration: none; /* getting rid of underline*/
+        color: beige; /*adjusting text color*/
+    }
+    nav li:hover /*calling the li tag inside of nav tag if hovered upon*/
+    {
+        background-color: aqua; /*changing background colour*/
+        padding: 6px; /*adding padding to make block bigger*/
+    }
+    h1 /*calling h1 tag*/
+    {
+        font-family: cursive; /*changing font*/
+        font-size: 30px; /*changing font size*/
+        text-align: center; /*aligning text to center*/
+    }
+    .parallax { /*calling upon parallax class*/
+        background-image: url("CCD Camaera.jpg"); /*adding background image*/
+      
+        min-height: 1000px; /*defining minimum height of image*/
+      
+        background-attachment: fixed; /*stopping image from scrolling to get parallax effect*/
+        background-position: center; /*centering image*/
+        background-repeat: no-repeat; /*making sure that background does not repeat*/
+        background-size: cover; /*making it so image covers all of background*/
+      }
+      .box { /*calling box class*/
+        position: absolute; /*position is reletive to parent object*/
+        left: 0; /*position from left*/
+        top: 50%; /*50% the way to the top*/
+        width: 100%; /*width should the width of page*/
+        text-align: center; /*text is aligned to the center*/
+        color: #000; /*text color is black*/
+      }
+        .box span.txt { /*calling txt class inside of box class*/
+            background-color: #111; /*defining background colour*/
+            color: #fff; /*defining text colour*/
+            padding: 18px; /*adding all around txt class*/
+            font-size: 25px; /*changing font size*/
+            letter-spacing: 10px; /*adjusting spacing between charaters*/
+        }
+        .box span.txt2 { /*calling txt2 class inside of box class*/
+            background-color: #116; /*defining background colour*/
+            color: #fff; /*defining text colour*/
+            padding: 18px; /*adding all around txt class*/
+            font-size: 20px; /*changing font size*/
+            letter-spacing: 10px; /*adjusting spacing between charaters*/
+        }
+        .parallax2 { /*calling parallax2 class*/
+            background-image: url("eye.jpg"); /*adding background image*/
+          
+            min-height: 1000px; /*defining minimum height of image*/
+          
+            background-attachment: fixed; /*stopping image from scrolling to get parallax effect*/
+            background-position: center; /*centering image*/
+            background-repeat: no-repeat; /*making sure that background does not repeat*/
+            background-size: cover;} /*making it so image covers all of background*/
+            .parallax3 { /*calling parallax3 class*/
+                background-image: url("Cmos\ Cam.jpg"); /*adding background image*/
+              
+                min-height: 1000px;  /*defining minimum height of image*/
+              
+                background-attachment: fixed; /*stopping image from scrolling to get parallax effect*/
+                background-position: center; /*centering image*/
+                background-repeat: no-repeat; /*making sure that background does not repeat*/
+                background-size: cover;}  /*making it so image covers all of background*/
+                #end /*calling end id*/
+                {
+                    background-color: grey; /*defining background color*/
+                    font-size: 15px; /*chaning font size*/
+                    width: 1505px; /*changing width*/
+                    margin-left: -80px; /*changing margin on the left side*/
+                    margin-top: 200px; /*changing margin above the div*/
+                    height: 200px; /*changing heigth*/
+                    color: black; /*changing text colour to black*/
+                }
+                #icup /*calling icup id*/
+                {
+                    margin-left: 1325px; /*changing margin on the left side*/
+                    margin-top: 90px; /*changing margin above*/
+                }

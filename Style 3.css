@@ -1,0 +1,147 @@
+    h1 /*calling h1 object*/
+    {
+        font-weight: bold; /*changing text thickness to bold*/
+        text-align: center; /*aligning text to center*/
+        padding-top: 50px; /*adding padding above the text*/
+        font-size: 56px; /*changing font size*/
+    }
+    body /* defining item to add style to*/
+    {
+        background-color: grey;  /*adjusting the color of the background*/
+    }
+    nav /* defining item to add style to*/
+    {
+        position: fixed; /*keeping nav bar on top even while scrolling*/
+        width: 100%; /*adjusting width*/
+    }
+    nav ul /* calling the ul tag inside of nav tag*/
+    {
+        list-style: none; /*getting rid of bullet points*/
+        padding-left: 20px; /*adding space between page and nav bar*/
+        margin: -10px; /*decreasing magrin on all sides*/
+
+    }
+    nav li /* calling the li tag inside of nav tag*/
+    {
+        float: left; /*making the list inline*/
+        display: block; /*making list a block to make it easier to spread apart*/
+        padding: 5px; /*adding space between list items*/
+        padding-right: 5px; /*adding space between list items on the rigth side*/
+        background-color: darkgray; /*adjusting background color*/
+        text-align: center; /* aligning text to center*/
+        width: 24%; /*defining width for each block*/
+    }
+    nav a /* calling the a tag inside of nav tag*/
+    {
+        text-decoration: none; /* getting rid of underline*/
+        color: beige; /*adjusting text color*/
+    }
+    nav li:hover /*calling the li tag inside of nav tag if hovered upon*/
+    {
+        background-color: aqua; /*changing background colour*/
+        padding: 6px; /*adding padding to make block bigger*/
+    }
+    img /*calling img tag*/
+    {
+        height: 300px; /*changing height*/
+        margin-left:350px ; /*changing margin on the left side*/
+        margin-top: -150px; /*changing margin on top*/
+        padding-bottom: 150px; /*changing padding on the bottom of the image*/
+        padding-top: 150px; /*changing padding above the image*/
+    }
+    .parentdiv /*calling upon parentdiv class*/
+    {
+        display: flex; /*changing display type to flex box*/
+        margin-top: -100px; /*changing margin above div*/
+        overflow: hidden; /*changing overflow to hidden, so any overflowing text or images will be made invisible*/
+        padding-bottom: 100px; /*changing padding on bottom*/
+    }
+    .childDiv1 { /*calling childdiv1 class*/
+            border: 2px solid black; /*making borders with set width,design and color*/
+            height: 500px; /*chaning heigth*/
+            background-color: lightgray; /*defining background color*/
+            background-image: url("Data.png"); /*adding background image*/
+            background-repeat: no-repeat; /*making sure background does not repeat*/
+            background-position: bottom; /*changing background position*/
+            background-size: 390px; /*changing bacground size*/
+            flex: 50%; /*making the flex box 50% of page width*/
+            padding: 10px; /*adding pagging on all sides*/
+        }
+    #tex
+    {
+        text-align: center; /*alignibng text to center*/
+        margin-top: -60px; /*changing margin above text*/
+        font-size: 70px; /*changing font size*/
+        font-weight: bold; /*changing thickness of text*/
+        color: white; /*changing text color*/
+        font-family: Franklin Gothic Medium; /*chaning font*/
+        flex: 2; /*defining flex value*/
+    }
+    .childDiv2 { /*calling childdiv1 class*/
+        border: 2px solid black; /*making borders with set width,design and color*/
+        height: 500px; /*chaning heigth*/
+        background-color: lightgray; /*defining background color*/
+        background-image: url("filter.png"); /*adding background image*/
+        background-repeat: no-repeat; /*making sure background does not repeat*/
+        background-position: bottom; /*changing background position*/
+        background-size: 390px; /*changing bacground size*/
+        flex: 50%; /*making the flex box 50% of page width*/
+        padding: 10px; /*adding pagging on all sides*/
+    }
+    .parentdiv2 /*calling parentdiv2 class*/
+    {
+        display: flex; /*changing display to flex*/
+        margin-top: -100px; /*changing top margin*/
+    }
+    .childDiv3 { /*calling childdiv1 class*/
+        border: 2px solid black; /*making borders with set width,design and color*/
+        height: 500px; /*chaning heigth*/
+        background-color: lightgray; /*defining background color*/
+        background-image: url("Guide.png"); /*adding background image*/
+        background-repeat: no-repeat; /*making sure background does not repeat*/
+        background-position: bottom; /*changing background position*/
+        background-size: 390px; /*changing bacground size*/
+        flex: 50%; /*making the flex box 50% of page width*/
+        padding: 10px; /*adding pagging on all sides*/
+    }
+
+    #tex
+    {
+        text-align: center; /*alignibng text to center*/
+        margin-top: -60px; /*changing margin above text*/
+        font-size: 70px; /*changing font size*/
+        font-weight: bold; /*changing thickness of text*/
+        color: white; /*changing text color*/
+        font-family: Franklin Gothic Medium; /*chaning font*/
+        flex: 2; /*defining flex value*/
+    }
+    .childDiv4 { /*calling childdiv1 class*/
+        border: 2px solid black; /*making borders with set width,design and color*/
+        height: 500px; /*chaning heigth*/
+        background-color: lightgray; /*defining background color*/
+        background-image: url("cool.png"); /*adding background image*/
+        background-repeat: no-repeat; /*making sure background does not repeat*/
+        background-position: bottom; /*changing background position*/
+        background-size: 390px; /*changing bacground size*/
+        flex: 50%; /*making the flex box 50% of page width*/
+        padding: 10px; /*adding pagging on all sides*/
+    }
+#dug /*calling dug id*/
+{
+display:flex; /*changing display to flex*/
+}
+#name, #email, #age /*calling name, age and email id*/
+{
+height: 30px; /*changing height*/
+flex: 33%; /*changing flex value*/
+}
+#comment /*calling comment id*/
+{
+display:flex; /*changing display to flex*/
+margin-bottom:-50px; /*changing bottom margin*/
+width:100% /*changing width to full width of page*/
+}
+button /*calling button tag*/
+{
+margin-top:70px; /*changing margin on top*/
+}
